@@ -1,9 +1,125 @@
 body{
+    font-family: roboto, sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    flex: 1;
-    justify-content: space-between;
+    /* flex: 1; */
+    justify-content: flex-start;
     height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: grey;
+    padding: 20px;
+    height: 10px;
+    background-color: rgb(60, 40, 40);
+}
+.nav{
+    font-size: 15px;
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style: none;
+   
     
 }
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+.section1{
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+    background-color: maroon;
+    width: 100%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.intro p{
+    font-size: 10px;
+    color: red
+}
+.intro h2{
+    font-size: 20px;
+    color: black;
+}
+.intro button{
+    padding: 10px;
+    background-color: rgb(51, 51, 214);
+    border-radius: 12px;
+    cursor: pointer;
+    shadow-color: black;
+    shadow-offset: 0px 4px;
+
+}
+.info-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #1b72c8;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 40px;
+  color: #1f2937;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-image {
+  width: 130px;
+  height: 190px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  /* Ensures the image fills the square nicely */
+  object-fit: cover; 
+}
+
+.subtext {
+  font-size: 14px;
+  color: #171c21;
+  line-height: 1.4;
+  margin: 0;
+}
+.section3{
+    background-color: silver;
+    width: 100%;
+}
+.footer{
+    background-color: rgb(60, 40, 40);
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
